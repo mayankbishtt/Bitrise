@@ -35,4 +35,3 @@ app:
   envs:
     - DOCKER_USERNAME: your-docker-username
     - DOCKER_PASSWORD: your-docker-password
-    - KUBECONFIG: your-kubeconfig-content
