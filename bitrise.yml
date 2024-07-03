@@ -25,7 +25,7 @@ workflows:
       - docker-build@1.0.0:
           inputs:
             dockerfile_path: "app/Dockerfile"
-            build_args: "--tag mayankbisht26/flask-app:latest"
+            tag: "mayankbisht26/flask-app:latest"
       - docker-push@1.1.0:
           inputs:
             image_name: "mayankbisht26/flask-app:latest"
